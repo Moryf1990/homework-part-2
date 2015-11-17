@@ -5,12 +5,12 @@ var $submit = $('#submit');
 
 $submit.click(function () {
 	$submit.html('Loading...');
-	$submit.prop('disabled', true);
+	$submit.prop('disabled', false);
 
 	setTimeout(function () {
 		$submit.html('Submit');
 		$submit.removeClass('btn-disabled');
-	}, 2000);
+	}, 4000);
 });
 
 },{}]},{},[1])
